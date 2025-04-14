@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="nav-island">
+        <div class="logo">Portfolio</div>
+        
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i><span>Home</span></a></li>
+                <li><a href="#about"><i class="fas fa-user"></i><span>About</span></a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i><span>Projects</span></a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i><span>Skills</span></a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
+            </ul>
+            <button id="darkModeToggle" class="dark-mode-toggle">
+                <i class="fas fa-moon"></i>
+                <span>Dark Mode</span>
+            </button>
+        </div>
+    </div>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Kumar Gautam</span></h1>
+            <div class="subtitle-container">
+                <p class="subtitle">AI & ML Enthusiast | Web Developer | eSports Professional</p>
+            </div>
+            <div class="hero-details">
+                <p><i class="fas fa-map-marker-alt"></i> From Jamshedpur, Jharkhand</p>
+                <p><i class="fas fa-graduation-cap"></i> Studying CS in AI & ML at Newton School of Technology</p>
+                <p><i class="fas fa-location-arrow"></i> Currently in Pune, Maharashtra</p>
+            </div>
+            <a href="https://www.linkedin.com/in/kumar-gautam-2bb399263/" target="_blank" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="background-box">
+            <h2>👨‍💻 About Me</h2>
+            <p>Hey there! I'm Kumar Gautam, a passionate tech enthusiast from Jamshedpur, Jharkhand, currently living in Pune, Maharashtra. I'm pursuing Computer Science with a specialization in AI & ML at Newton School of Technology — where I'm actively involved in the Robotics Club and constantly building things that excite me.</p>
+
+            <h3>🚀 What I Do</h3>
+            <p>I'm a builder at heart. Whether it's drones, AI tools, or game servers, I love creating impactful tech experiences. My journey in technology started with a failed drone project in 9th grade, which sparked my passion for robotics and innovation.</p>
+
+            <h3>💡 Other Cool Stuff</h3>
+            <ul>
+                <li><strong>DSA Every Day:</strong> Currently grinding through the #GFG160 Challenge — 1 problem a day for 160 days.</li>
+                <li><strong>Proficient in Python.</strong> Topics mastered: Recursion, Sorting, Prefix Sum, Binary Search, Memoization, OOP & more.</li>
+                <li><strong>eSports Origin Story:</strong> Played for DC eSports, one of India's top teams. During lockdown, I created a gaming server that hit 50K+ users in under a year. Learned project management, community building, and how to thrive under pressure.</li>
+                <li><strong>Fitness Focused:</strong> I'm on a mission to go from 72 kg to 85 kg of lean muscle. Exploring strength training and supplements like creatine monohydrate.</li>
+            </ul>
+
+            <h3>🧬 What Drives Me</h3>
+            <ul>
+                <li><strong>Robotics:</strong> It started with a failed drone in 9th grade. Today, I'm building one from scratch with full flight control.</li>
+                <li><strong>Pharma Meets Tech:</strong> With my dad in the pharma world, I'm curious about blending tech with healthcare.</li>
+                <li><strong>Learning:</strong> Every project I take on is a step toward mastering real-world tech stacks and solving real problems.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="DroneX">
+                <h3>DroneX</h3>
+                <div class="project-details">
+                    <p class="project-category">Web Application Project / Robotics</p>
+                    <p class="project-description">An innovative platform combining drone technology with software for drone management and control, exploring autonomous and remote-controlled applications.</p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Remote control via web interface</li>
+                            <li>Flight data logging</li>
+                            <li>Live video streaming</li>
+                            <li>Modular hardware setup using ESP32</li>
+                            <li>Custom dashboard UI</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <h4>Tech Stack:</h4>
+                        <ul>
+                            <li>Hardware: ESP32, sensors, motors</li>
+                            <li>Frontend: HTML, CSS, JavaScript</li>
+                            <li>Backend: Python/Node.js</li>
+                            <li>Communication: MQTT/WebSocket</li>
+                            <li>Database: Firebase/MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="Small Tech Companies">
+                <h3>Small Tech Companies Website</h3>
+                <p>A comprehensive website showcasing small tech companies, built with HTML and CSS. Features include company listings, detailed information pages, and a support section.</p>
+                <a href="https://github.com/maynkxx/smalltechcompanies" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A brief description of the project and technologies used.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Python</h3>
+                <ul>
+                    <li>Data Structures</li>
+                    <li>Algorithms</li>
+                    <li>Object-Oriented Programming</li>
+                    <li>NumPy & Pandas</li>
+                    <li>Machine Learning Basics</li>
+                    <li>Web Scraping</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>VS Code</li>
+                    <li>Figma</li>
+                    <li>Docker</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
