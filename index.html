@@ -20,10 +20,6 @@
                 <li><a href="#skills"><i class="fas fa-code"></i><span>Skills</span></a></li>
                 <li><a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
             </ul>
-            <button id="darkModeToggle" class="dark-mode-toggle">
-                <i class="fas fa-moon"></i>
-                <span>Dark Mode</span>
-            </button>
         </div>
     </div>
 
@@ -44,27 +40,50 @@
 
     <section id="about" class="about">
         <h2>About Me</h2>
-        <div class="background-box">
-            <h2>👨‍💻 About Me</h2>
-            <p>Hey there! I'm Kumar Gautam, a passionate tech enthusiast from Jamshedpur, Jharkhand, currently living in Pune, Maharashtra. I'm pursuing Computer Science with a specialization in AI & ML at Newton School of Technology — where I'm actively involved in the Robotics Club and constantly building things that excite me.</p>
+        <div class="about-grid">
+            <div class="about-card intro-card">
+                <div class="about-header">
+                    <h3>👋 Introduction</h3>
+                </div>
+                <div class="about-content">
+                    <p>Hey there! I'm Kumar Gautam, a passionate tech enthusiast from Jamshedpur, Jharkhand, currently living in Pune, Maharashtra. I'm pursuing Computer Science with a specialization in AI & ML at Newton School of Technology — where I'm actively involved in the Robotics Club and constantly building things that excite me.</p>
+                </div>
+            </div>
 
-            <h3>🚀 What I Do</h3>
-            <p>I'm a builder at heart. Whether it's drones, AI tools, or game servers, I love creating impactful tech experiences. My journey in technology started with a failed drone project in 9th grade, which sparked my passion for robotics and innovation.</p>
+            <div class="about-card builder-card">
+                <div class="about-header">
+                    <h3>🚀 What I Do</h3>
+                </div>
+                <div class="about-content">
+                    <p>I'm a builder at heart. Whether it's drones, AI tools, or game servers, I love creating impactful tech experiences. My journey in technology started with a failed drone project in 9th grade, which sparked my passion for robotics and innovation.</p>
+                </div>
+            </div>
 
-            <h3>💡 Other Cool Stuff</h3>
-            <ul>
-                <li><strong>DSA Every Day:</strong> Currently grinding through the #GFG160 Challenge — 1 problem a day for 160 days.</li>
-                <li><strong>Proficient in Python.</strong> Topics mastered: Recursion, Sorting, Prefix Sum, Binary Search, Memoization, OOP & more.</li>
-                <li><strong>eSports Origin Story:</strong> Played for DC eSports, one of India's top teams. During lockdown, I created a gaming server that hit 50K+ users in under a year. Learned project management, community building, and how to thrive under pressure.</li>
-                <li><strong>Fitness Focused:</strong> I'm on a mission to go from 72 kg to 85 kg of lean muscle. Exploring strength training and supplements like creatine monohydrate.</li>
-            </ul>
+            <div class="about-card achievements-card">
+                <div class="about-header">
+                    <h3>💡 Achievements & Skills</h3>
+                </div>
+                <div class="about-content">
+                    <ul>
+                        <li><strong>DSA Every Day:</strong> Currently grinding through the #GFG160 Challenge — 1 problem a day for 160 days.</li>
+                        <li><strong>Proficient in Python.</strong> Topics mastered: Recursion, Sorting, Prefix Sum, Binary Search, Memoization, OOP & more.</li>
+                        <li><strong>E-sports Origin Story:</strong> Played for DC eSports, one of India's top teams. During lockdown, I created a gaming server that hit 50K+ users in under a year.</li>
+                    </ul>
+                </div>
+            </div>
 
-            <h3>🧬 What Drives Me</h3>
-            <ul>
-                <li><strong>Robotics:</strong> It started with a failed drone in 9th grade. Today, I'm building one from scratch with full flight control.</li>
-                <li><strong>Pharma Meets Tech:</strong> With my dad in the pharma world, I'm curious about blending tech with healthcare.</li>
-                <li><strong>Learning:</strong> Every project I take on is a step toward mastering real-world tech stacks and solving real problems.</li>
-            </ul>
+            <div class="about-card passions-card">
+                <div class="about-header">
+                    <h3>🧬 What Drives Me</h3>
+                </div>
+                <div class="about-content">
+                    <ul>
+                        <li><strong>Robotics:</strong> It started with a failed drone in 9th grade. Today, I'm building one from scratch with full flight control.</li>
+                        <li><strong>Pharma Meets Tech:</strong> With my dad in the pharma world, I'm curious about blending tech with healthcare.</li>
+                        <li><strong>Learning:</strong> Every project I take on is a step toward mastering real-world tech stacks and solving real problems.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -72,44 +91,189 @@
         <h2>My Projects</h2>
         <div class="project-grid">
             <div class="project-card">
-                <img src="https://via.placeholder.com/300x200" alt="DroneX">
-                <h3>DroneX</h3>
-                <div class="project-details">
-                    <p class="project-category">Web Application Project / Robotics</p>
-                    <p class="project-description">An innovative platform combining drone technology with software for drone management and control, exploring autonomous and remote-controlled applications.</p>
-                    <div class="project-features">
-                        <h4>Key Features:</h4>
-                        <ul>
-                            <li>Remote control via web interface</li>
-                            <li>Flight data logging</li>
-                            <li>Live video streaming</li>
-                            <li>Modular hardware setup using ESP32</li>
-                            <li>Custom dashboard UI</li>
-                        </ul>
-                    </div>
-                    <div class="tech-stack">
-                        <h4>Tech Stack:</h4>
-                        <ul>
-                            <li>Hardware: ESP32, sensors, motors</li>
-                            <li>Frontend: HTML, CSS, JavaScript</li>
-                            <li>Backend: Python/Node.js</li>
-                            <li>Communication: MQTT/WebSocket</li>
-                            <li>Database: Firebase/MongoDB</li>
-                        </ul>
-                    </div>
+                <h3>🚁 DroneX</h3>
+                <div class="project-category">Robotics / AI</div>
+                <div class="project-description">
+                    DroneX is an innovative drone technology platform that combines cutting-edge hardware with intelligent software solutions. The project focuses on creating a comprehensive ecosystem for drone enthusiasts, professionals, and businesses, offering features like automated flight planning, real-time monitoring, and advanced analytics.
+                </div>
+                <div class="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <ul>
+                        <li>Python</li>
+                        <li>Computer Vision</li>
+                        <li>Machine Learning</li>
+                        <li>IoT Integration</li>
+                    </ul>
+                </div>
+                <div class="project-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li>Automated flight planning and execution</li>
+                        <li>Real-time monitoring and control</li>
+                        <li>Advanced obstacle detection and avoidance</li>
+                        <li>Data analytics and reporting</li>
+                    </ul>
+                </div>
+                <div class="project-highlight">
+                    <h4>What I Learned</h4>
+                    <p>This project provided deep insights into drone technology, computer vision, and IoT systems. I gained hands-on experience in integrating hardware with software, implementing machine learning algorithms for object detection, and developing real-time monitoring systems.</p>
                 </div>
                 <a href="#" class="project-link">View Project</a>
             </div>
             <div class="project-card">
-                <img src="https://via.placeholder.com/300x200" alt="Small Tech Companies">
-                <h3>Small Tech Companies Website</h3>
-                <p>A comprehensive website showcasing small tech companies, built with HTML and CSS. Features include company listings, detailed information pages, and a support section.</p>
-                <a href="https://github.com/maynkxx/smalltechcompanies" target="_blank" class="project-link">View on GitHub</a>
+                <h3>🎯 Wake-A-Mole</h3>
+                <div class="project-category">Game Development</div>
+                <div class="project-description">
+                    Wake-A-Mole is a fast-paced browser game inspired by the classic Whac-A-Mole. Designed to test players' reflexes and timing, the game challenges users to "wake" moles as they randomly pop up from different holes on the screen. With increasing difficulty levels and a dynamic scoring system, Wake-A-Mole offers a fun and interactive experience right from the browser.
+                </div>
+                <div class="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="project-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li>Random mole spawn mechanics</li>
+                        <li>Timer-based gameplay with score tracking</li>
+                        <li>Smooth animations and responsive design</li>
+                        <li>Easy to play, hard to master!</li>
+                    </ul>
+                </div>
+                <div class="project-highlight">
+                    <h4>What I Learned</h4>
+                    <p>Through this project, I honed my skills in DOM manipulation, event handling, and game logic using JavaScript. It also gave me hands-on experience in building interactive UIs and understanding user engagement in casual gaming.</p>
+                </div>
+                <a href="#" class="project-link">View Project</a>
             </div>
             <div class="project-card">
-                <img src="https://via.placeholder.com/300x200" alt="Project 3">
-                <h3>Project 3</h3>
-                <p>A brief description of the project and technologies used.</p>
+                <h3>🤖 Generative AI<span class="hackathon-badge">Hackathon</span></h3>
+                <div class="project-category">AI / Cloud / Full-Stack Development</div>
+                <div class="project-description">
+                    This is a scalable cloud-native Generative AI-as-a-Service platform built for SMEs, creators, and developers. The platform provides users with powerful AI tools—ranging from text and image generation to code explanation and more—accessible via a clean dashboard and developer APIs. It's designed with modularity and multi-tenant support in mind, allowing flexible usage and fine-tuning for individual business needs.
+                </div>
+                <div class="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <ul>
+                        <li>React</li>
+                        <li>HTML, CSS, JavaScript</li>      
+                    </ul>
+                </div>
+                <div class="project-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li>Modular GenAI tools (text, code, image generation, etc.)</li>
+                        <li>Multi-tenant architecture for serving multiple clients securely</li>
+                        <li>Real-time interaction using WebSocket/MQTT</li>
+                        <li>REST API and Web Dashboard for easy integration and control</li>
+                        <li>Optional fine-tuning and personalization features for enterprise use</li>
+                    </ul>
+                </div>
+                <div class="project-highlight">
+                    <h4>What I Learned</h4>
+                    <p>This project deepened my understanding of Generative AI applications, API design, real-time communication protocols, and scalable system architecture. I also gained experience integrating AI models with full-stack web development in a production-ready environment.</p>
+                </div>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>🌐 Personal Portfolio Website</h3>
+                <div class="project-category">Web Development</div>
+                <div class="project-description">
+                    My personal portfolio website is a dynamic and responsive platform designed to showcase my projects, skills, and journey as a developer. It serves as a central hub where visitors can learn about my background, explore the work I've done, and easily get in touch with me. The design focuses on clarity, accessibility, and a smooth user experience across all devices.
+                </div>
+                <div class="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="project-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li>Clean, modern UI with responsive design</li>
+                        <li>Project gallery with detailed descriptions and tech stacks</li>
+                        <li>About Me section highlighting my background and interests</li>
+                        <li>Contact form and social media links for easy connection</li>
+                        <li>Optional: Resume download, blog section, or dark/light theme toggle</li>
+                    </ul>
+                </div>
+                <div class="project-highlight">
+                    <h4>What I Learned</h4>
+                    <p>Building my portfolio helped me improve my frontend skills, especially in structuring content, responsive design, and user-focused navigation. It also taught me the importance of personal branding and presenting my work effectively online.</p>
+                </div>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>🎓 Teacher's Teaching Platform <span class="upcoming-badge">Upcoming</span></h3>
+                <div class="project-category">EdTech / Web Development</div>
+                <div class="project-description">
+                    This educational website is built specifically for teachers to simplify the way they deliver lessons and interact with students. The platform allows teachers to upload educational videos, share resources, conduct quizzes, and monitor student progress—all in one place. It's designed to make online teaching efficient, organized, and engaging.
+                </div>
+                <div class="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React (optional)</li>
+                        <li>Firebase/MongoDB</li>
+                    </ul>
+                </div>
+                <div class="project-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li>Upload and manage teaching videos (lecture recordings, tutorials, etc.)</li>
+                        <li>Share notes, assignments, and downloadable resources</li>
+                        <li>Conduct quizzes or assessments</li>
+                        <li>Student progress tracking and performance overview</li>
+                        <li>Simple and user-friendly interface tailored for educators</li>
+                    </ul>
+                </div>
+                <div class="project-highlight">
+                    <h4>What I Learned</h4>
+                    <p>This project helped me gain hands-on experience with file handling, media streaming, and backend integration for storing and retrieving video content. It also strengthened my understanding of building real-world tools that serve teachers and students in an online learning environment.</p>
+                </div>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>🧠 Generative AI Mode Demonstrator <span class="upcoming-badge">Upcoming</span></h3>
+                <div class="project-category">AI / Experimentation / Web Development</div>
+                <div class="project-description">
+                    This project is an interactive web-based demonstration that showcases the different adaptive modes of Generative AI, highlighting its ability to switch between tasks like writing content, answering questions, generating code, and more. The goal is to help users understand the flexibility and power of modern Gen AI models in a simple, intuitive way.
+                </div>
+                <div class="tech-stack">
+                    <h4>Tech Stack</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React (optional)</li>
+                        <li>Python</li>
+                        <li>OpenAI API</li>
+                    </ul>
+                </div>
+                <div class="project-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li>Multiple AI modes: Coding, Content Writing, Q&A, Translation, and more</li>
+                        <li>Dynamic UI that updates based on selected mode</li>
+                        <li>Real-time response generation using an AI API</li>
+                        <li>Clear examples and use cases for each mode</li>
+                        <li>Light/dark theme toggle and mobile responsiveness</li>
+                    </ul>
+                </div>
+                <div class="project-highlight">
+                    <h4>What I Learned</h4>
+                    <p>This project helped me explore the versatility of Gen AI and how to build interactive frontends that integrate seamlessly with AI APIs. I also gained insight into prompt engineering and how model behavior can change based on context and instructions.</p>
+                </div>
                 <a href="#" class="project-link">View Project</a>
             </div>
         </div>
@@ -118,43 +282,64 @@
     <section id="skills" class="skills">
         <h2>Skills</h2>
         <div class="skills-grid">
-            <div class="skill-category">
-                <h3>Python</h3>
-                <ul>
-                    <li>Data Structures</li>
-                    <li>Algorithms</li>
-                    <li>Object-Oriented Programming</li>
-                    <li>NumPy & Pandas</li>
-                    <li>Machine Learning Basics</li>
-                    <li>Web Scraping</li>
-                </ul>
+            <div class="skill-card">
+                <h3>🐍 Python</h3>
+                <div class="skill-description">
+                    Proficient in Python programming with a strong foundation in data structures and algorithms. Experienced in building efficient and scalable applications.
+                </div>
+                <div class="skill-details">
+                    <h4>Key Skills</h4>
+                    <ul>
+                        <li>Data Structures</li>
+                        <li>Basic of Algorithms</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>NumPy & Pandas</li>
+                    </ul>
+                </div>
+                <div class="skill-highlight">
+                    <h4>What I Can Do</h4>
+                    <p>Develop efficient algorithms, create data processing pipelines, and build scalable applications using Python's rich ecosystem of libraries and frameworks.</p>
+                </div>
             </div>
-            <div class="skill-category">
-                <h3>Frontend</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                </ul>
+
+            <div class="skill-card">
+                <h3>💻 Frontend Development</h3>
+                <div class="skill-description">
+                    Skilled in creating responsive and interactive web interfaces with modern frontend technologies and best practices.
+                </div>
+                <div class="skill-details">
+                    <h4>Key Skills</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                <div class="skill-highlight">
+                    <h4>What I Can Do</h4>
+                    <p>Build responsive websites, create interactive user interfaces, and implement modern web design principles for optimal user experience.</p>
+                </div>
             </div>
-            <div class="skill-category">
-                <h3>Backend</h3>
-                <ul>
-                    <li>Node.js</li>
-                    <li>Python</li>
-                    <li>SQL</li>
-                    <li>MongoDB</li>
-                </ul>
-            </div>
-            <div class="skill-category">
-                <h3>Tools</h3>
-                <ul>
-                    <li>Git</li>
-                    <li>VS Code</li>
-                    <li>Figma</li>
-                    <li>Docker</li>
-                </ul>
+
+            <div class="skill-card">
+                <h3>🛠️ Tools & Technologies</h3>
+                <div class="skill-description">
+                    Experienced with essential development tools and technologies that enhance productivity and collaboration.
+                </div>
+                <div class="skill-details">
+                    <h4>Key Skills</h4>
+                    <ul>
+                        <li>Git</li>
+                        <li>VS Code</li>
+                        <li>Figma</li>
+                        <li>Canva</li>
+                    </ul>
+                </div>
+                <div class="skill-highlight">
+                    <h4>What I Can Do</h4>
+                    <p>Manage version control, design user interfaces, and utilize development tools effectively to streamline the development process.</p>
+                </div>
             </div>
         </div>
     </section>
