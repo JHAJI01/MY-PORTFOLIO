@@ -606,19 +606,28 @@ section h2 {
 
 .project-link {
     display: inline-block;
-    padding: 0.6rem 1.2rem;
-    background: rgba(255, 255, 255, 0.1);
-    color: #ffffff;
+    padding: 0.8rem 1.5rem;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 5px;
+    font-weight: 500;
     transition: all 0.3s ease;
-    margin-top: auto;
+    margin-top: 1rem;
     text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
 }
 
 .project-link:hover {
-    background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+    background: linear-gradient(135deg, #2980b9, #3498db);
+}
+
+.project-link:active {
+    transform: translateY(0);
 }
 
 /* Contact Section */
